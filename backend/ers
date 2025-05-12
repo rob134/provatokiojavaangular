@@ -1,0 +1,9 @@
+ id |             email              |     name      |                           password                           |   roles   
+----+--------------------------------+---------------+--------------------------------------------------------------+-----------
+  1 | admin@example.com              |               | $2a$10$N9qo8uLOickgx2ZMRZoMy.Mrq4H3d6U1gZYGYf5dO1t/r6W7g.7nG | 
+  2 | joao@example.com               | João da Silva | $2a$10$daA/gjJzArFxq1xEsfJpbuTxGvunZEZ/9FQVELLbmLAhY0jrgna7C | 
+  3 | robson_scavazzini@hotmail.com  | robson        | $2a$10$YxDk19uD4tPi7B0Ki69rKuYQJvIyZV1wIt.Yrs/dX/Y5XWQAoI0WS | 
+  4 | rebecaluziani@gmail.com        | Rebeca        | $2a$10$Ws9NYr.NG1XGkaQU0Gy9JOqVcCp9hNDP9A24YU50zQys2hOXQo2BS | 
+  5 | ronaldo_stefanelli@hotmail.com | ronaldo       | $2a$10$l1hJlZ7UfGlaPN.Iifp7c.FhL5RYbieCGWojWn4rM7YhJBTlSEebG | ROLE_USER
+(5 rows)
+

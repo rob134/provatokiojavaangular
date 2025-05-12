@@ -1,0 +1,30 @@
+<!-- register.component.html -->
+<div class="register-container">
+  <h2>Register</h2>
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" formControlName="email">
+    </div>
+    <div class="form-group">
+      <label>Password:</label>
+      <input type="password" formControlName="password">
+    </div>
+    <button type="submit" [disabled]="!registerForm.valid">Register</button>
+    
+    <div class="register-container">
+  		<h2>Register</h2>
+  		<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    		<!-- Seus campos de formulário existentes -->
+    		
+    		<div class="login-link">
+      		Já tem uma conta? <a (click)="navigateToLogin()">Faça login</a>
+    		</div>
+  		</form>
+</div>
+  </form>
+</div>
